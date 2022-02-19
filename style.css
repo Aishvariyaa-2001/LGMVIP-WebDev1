@@ -1,0 +1,109 @@
+#col{
+    background-color:aqua;
+}
+
+
+
+header{
+    background-color:blue;  
+    margin-top: 50px 30px;
+    box-sizing: border-box;
+}
+
+header h1{
+    padding: 10px;
+    text-align: center;
+    color: whitesmoke; 
+    text-transform: capitalize;  
+}
+
+main{
+    padding: 30px;
+    margin: 50px auto;
+    border: 3px dashed rgb(243, 115, 10);
+    width:500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+form{
+    margin:20px;
+}
+
+#btn{
+    background-color:indianred;
+    padding: 5px;
+    margin-left: 10px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    border-radius: 5px;
+
+    
+}
+
+#btn:hover{
+    cursor:pointer;
+    background-color: brown;
+}
+
+#mytxt{
+    padding: 10px 10px;
+    width:200px;
+    border-radius: 15px;
+    font-family:'Courier New', Courier, monospace;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+ul{
+    width:100%;
+    background-color:bisque;
+    font-family:cursive;
+    list-style: none;
+    text-decoration:wavy;
+  font-size:medium;
+  font-size: 20px;
+    
+}
+
+ul li:nth-child(odd) {
+    background:gray;
+  }
+
+  ul li:hover {
+    background: #ddd;
+  }
+
+  ul li.checked {
+
+    text-decoration: line-through white;
+    text-decoration-thickness: 2px;
+    
+  }  
+
+li{
+    padding: 10px;
+position: relative;
+font-weight: bold;
+border-bottom: 2px solid rgb(223, 151, 17); 
+margin-right: 20px;
+}
+
+li:hover{
+    cursor: pointer;
+}
+
+.hide{
+    position: absolute;
+    top: 0;
+    right:0;
+    padding:10px;
+}
+
+.hide:hover{
+    cursor: pointer;
+    background-color: thistle;
+}
